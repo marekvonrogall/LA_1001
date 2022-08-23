@@ -29,19 +29,21 @@ Ein Spiel in welchem der Benutzer die richtige, zufällig generierte Zahl errate
 | 5    |  kann           |  Q   | Als Kunde möchte ich eine Applikation, welche beim erfolgreichen erraten der Zahl einen Audioeffekt abspielt, damit die Applikation interessanter wirkt.|
 | 6    |  kann           |  Q   | Als Kunde möchte ich eine Applikation, welche orange gefärbte Eingabefelder besitzt, damit die Applikation ansprechender wirkt. |
 | 7    |  kann           |  Q   | Als Kunde möchte ich eine Applikation, welche den Hintergrund grün einfärbt, wenn die richtige Zahl erraten wurde, damit die Applikation ansprechender wirkt. |
+| 8    |  muss           |  F   | Als Kunde möchte ich eine Applikation, welche bei einer Eingabe falschen Formats eine Fehlermeldung ausgibt, damit keine Fehler im Programm entstehen. |
 
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | Applikation gestartet, zufällige Zahl ist bereits generiert, wartet auf Benutzereingabe. | Die richtige Zahl wird nach n Versuchen erraten | Die Applikation ist beendet |
-| 2.1  | Applikation gestartet, es wird in einem Benutzereingabefeld nach einer Zahlenspannweite gefragt. | String | Fehlermeldung "Bitte geben Sie nur Zahlen ein" |
-| 3.1  | Applikation gestartet, zufällige Zahl ist bereits generiert, die richtige Zahl wurde erraten | Nach 5 Versuchen richtige Zahl erraten | Meldung: "Anzahl Rateversuche: 5" |
+| 1.1  | Applikation gestartet, zufällige Zahl ist bereits generiert, wartet auf Benutzereingabe. | 20; 90; 60; 52 | Die Applikation ist beendet |
+| 2.1  | Applikation gestartet, es wird in einem Benutzereingabefeld nach einer Zahlenspannweite gefragt. | 20; 341 | Die Applikation wählt eine zufällige Zahl wischen 20 und 341. |
+| 3.1  | Applikation gestartet, zufällige Zahl ist bereits generiert, die richtige Zahl wurde erraten | 93; 21 | Meldung: "Anzahl Rateversuche: 2" |
 | 4.1  | Applikation gestartet, zufällige Zahl ist bereits generiert, wartet auf Benutzereingabe. | Die Taste "H" wird während des Abschickens der Benutzereingabe gedrückt gehalten | Die Überprüfung der Benutzereingabe wird übersprungen. Die Anwendung zeigt an, dass die richtige Zahl erraten wurde. |
 | 5.1  | Applikation gestartet, zufällige Zahl ist bereits generiert, die richtige Zahl wurde soeben erraten | Keine Eingabe | Ein Audioeffekt wird abgespielt |
 | 6.1  | Applikation gestartet, zufällige Zahl wurde gerade generiert, das Feld für die Benutzereingabe erscheint | Keine Eingabe | Das Feld der Benutzereingabe ist orange |
 | 7.1  | Applikation gestartet, zufällige Zahl ist bereits generiert, die richtige Zahl wurde soeben erraten | keine Eingabe | Der Hintergrund der Applikation färbt sich grün |
+| 8.1  | Applikation gestartet, wartet auf Eingabe des Benutzers. | String | Fehlermeldung: "Es werden nur ganze Zahlen angenommen" |
 
 
 ### 1.4 Diagramme
@@ -53,14 +55,16 @@ Ein Spiel in welchem der Benutzer die richtige, zufällig generierte Zahl errate
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |  30.08.22     | Marek von Rogall | Die basis Applikation ist fertig. Aus einer festgelegten Zahlenspannweite von 1-100 kann geraten werden, indem ein Eingabefeld erscheint, in welchem nur Zahlen im Integer Format angenommen werden. Die Anzahl der benötigten Versuche, bis die richtige Zahl erraten wurde, wird bereits angezeigt.          | 50min        |
-| 1.A  |  30.08.22     | Marek von Rogall | Ein Eingabefeld mit einer selbst festlegbaren Zahlenspannweite funktioniert und nimmt nur Zahlen im Integer Format an.         | 30min         |
+| 1.A  |  30.08.22     | Marek von Rogall | Die basis Applikation ist fertig. Aus einer festgelegten Zahlenspannweite von 1-100 kann geraten werden, indem ein Eingabefeld erscheint. | 50min        |
+| 2.A  |  30.08.22     | Marek von Rogall | Ein Eingabefeld mit einer selbst festlegbaren Zahlenspannweite funktioniert und nimmt nur Zahlen im Integer Format an.         | 30min         |
+| 3.A  |  30.08.22  | Marek von Rogall    | Eine Ausgabe der benötigten Versuche bis zum erraten der richtigen Zahl wird in das Spiel eingebaut. | 20min |
+| 4.A  |  30.08.22  | Marek von Rogall    | Ein Trick im Spiel für das überspringen der Überprüfung der Richtigkeit der eingegebenen Zahl wird in das Spiel eingebaut. | 20min |
+| 5.A | 06.09.22 | Marek von Rogall | Ein Audioeffekt beim erraten der korrekten Zahl wird in das Spiel eingebaut | 30min |
+| 6.A | 06.09.22 | Marek von Rogall | Die Eingabefelder im Spiel werden Orange gefärbt. | 30min |
+| 7.A | 06.09.22 | Marek von Rogall | Der Hintergrund der Applikation wird grün eingefärbt. | 25min |
+| 8.A | 06.09.22 | Marek von Rogall | Nur Integer Eingaben werden in Eingabefeldern akzeptiert. | 40min |
 
-Total: 
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
+Total: 245min
 
 ## 3 Entscheiden
 
