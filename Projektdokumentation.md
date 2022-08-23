@@ -68,7 +68,8 @@ Total: 245min
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Ich nehme an, der Kunde möchte einen hellgrünen Hintergrund, keinen dunkelgrünen, wenn die richtige Zahl erraten wurde.
+Ich nehme an, der Kunde möchte einen frühlichen Audioeffekt, keinen traurigen, wenn die richtige Zahl erraten wurde.
 
 ## 4 Realisieren
 
