@@ -3,7 +3,7 @@
 # Projekt-Dokumentation
 
 
-Gruppe Marek von Rogall, von Rogall
+Einzelarbeit, von Rogall
 
 | Datum    | Version | Zusammenfassung                                                                            |
 | -------- | ------- | ------------------------------------------------------------------------------------------ |
