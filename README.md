@@ -5,11 +5,12 @@
 
 Gruppe Marek von Rogall, von Rogall
 
-| Datum | Version | Zusammenfassung                                              |
-| ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| Datum | Version | Zusammenfassung                                                                            |
+| ----- | ------- | ------------------------------------------------------------                               |
+|       | 0.0.1   | Die Funktion ein Spiel auf Anforderung neuzustarten wurde hinzugefügt.                     |
+|       | 0.0.2   | Die Funktion das Spiel beim raten und halten der Taste "H" zu gewinnen wurde hinzugefügt.  |
+|       | 0.0.3   | Die Funktion eigene Zahlenspannen zu verwenden wurde dem Spiel hinzugefügt.                |
+|       | 1.0.0   |                                                                                            |
 
 ## 1 Informieren
 
