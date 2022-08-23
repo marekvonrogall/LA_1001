@@ -7,31 +7,32 @@ Gruppe Marek von Rogall, von Rogall
 
 | Datum    | Version | Zusammenfassung                                                                            |
 | -------- | ------- | ------------------------------------------------------------------------------------------ |
-| 23.08.22 | 0.0.1   | Die Funktion ein Spiel auf Anforderung neuzustarten wurde hinzugefügt.                     |
-| 23.08.22 | 0.0.2   | Die Funktion das Spiel beim raten und halten der Taste "H" zu gewinnen wurde hinzugefügt.  |
-| 23.08.22 | 0.0.3   | Die Funktion eine eigene Zahlenspannen zu verwenden wurde dem Spiel hinzugefügt.           |
-|          | 0.0.4   | Die Funktion die Anzahl Rateversuche anzeigen zu lassen wurde hinzugefügt                  |
+| 23.08.22 | 0.0.1   | Projektdokumentation. |
+|          | 0.0.2   |   |
+|          | 0.0.3   |   |
+|          | 0.0.4   |   |
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-Ein Programm 
+Ein Spiel in welchem der Benutzer die richtige, zufällig generierte Zahl erraten muss.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |  muss           |  F   | Als Kunde möchte ich in einem Eingabefeld die Spannweite der zufälligen Zahlen selbst aswählen können       |
-| 2    |  muss           |  F   | Als Kunde möchte ich ein Programm welches mir die Anzahl Rateversuche am Schluss des Spiels anzeigt         |
-| 3    |  muss           |  F   | Als Kunde möchte ich ein Programm, welches ich mit einem Tastendruck manipulieren und sofort gewinnen kann. |
+| 1    |  muss           |  F   | Als Kunde möchte ich in einem Eingabefeld die Spannweite der zufälligen Zahlen selbst aswählen können, damit der Schwierigkeitsgrad des Spiels angepasst werden kann. |
+| 2    |  muss           |  F   | Als Kunde möchte ich ein Programm welches mir die Anzahl Rateversuche am Schluss des Spiels anzeigt, damit man sich mit anderen Spielern vergleichen kann. |
+| 3    |  muss           |  F   | Als Kunde möchte ich ein Programm, welches ich mit einem Tastendruck manipulieren und sofort gewinnen kann, damit ich besser bin als alle anderen. |
+| 4    |  kann           |  Q   | Beim erfolgreichen erraten der Zahl wird ein Audioeffekt abgespielt. |
 
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
+| 1.1  | Applikation gestartet, zufällige Zahl ist bereits generiert, wartet auf Benutzereingabe. | String | Fehlermeldung "Bitte geben Sie nur Zahlen ein" |
 | 2.1  |              |         |                   |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
