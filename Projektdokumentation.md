@@ -24,11 +24,11 @@ Ein Spiel in welchem der Benutzer die richtige, zufällig generierte Zahl errate
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |  muss           |  F   | Als Kunde möchte ich ein Spiel haben, in welchem man eine zufällig generierte Zahl erraten muss, um zu gewinnen, damit ich mir mit dem Spiel die Zeit vertreiben kann.
 | 2    |  muss           |  F   | Als Kunde möchte ich in einem Eingabefeld die Spannweite der zufälligen Zahlen selbst auswählen können, damit der Schwierigkeitsgrad des Spiels angepasst werden kann. |
-| 3    |  muss           |  F   | Als Kunde möchte ich ein Programm welches mir die Anzahl Rateversuche am Schluss des Spiels anzeigt, damit man sich mit anderen Spielern vergleichen kann. |
-| 4    |  muss           |  F   | Als Kunde möchte ich ein Programm, welches ich mit einem Tastendruck manipulieren und sofort gewinnen kann, damit ich besser bin als alle anderen. |
-| 5    |  kann           |  Q   | Beim erfolgreichen erraten der Zahl wird ein Audioeffekt abgespielt. |
-| 6    |  kann           |  Q   | Orange gefärbte Eingabefelder.  |
-| 7    |  kann           |  Q   | Grün gefärbter Hintergrund, wenn die richtige Zahl erraten wurde.  |
+| 3    |  muss           |  F   | Als Kunde möchte ich eine Applikation, welches mir die Anzahl Rateversuche am Schluss des Spiels anzeigt, damit man sich mit anderen Spielern vergleichen kann. |
+| 4    |  muss           |  F   | Als Kunde möchte ich eine Applikation, welches ich mit einem Tastendruck manipulieren und sofort gewinnen kann, damit ich öfters gewinne als meine Mitspieler. |
+| 5    |  kann           |  Q   | Als Kunde möchte ich eine Applikation, welche beim erfolgreichen erraten der Zahl einen Audioeffekt abspielt, damit die Applikation interessanter wirkt.|
+| 6    |  kann           |  Q   | Als Kunde möchte ich eine Applikation, welche orange gefärbte Eingabefelder besitzt, damit die Applikation ansprechender wirkt. |
+| 7    |  kann           |  Q   | Als Kunde möchte ich eine Applikation, welche den Hintergrund grün einfärbt, wenn die richtige Zahl erraten wurde, damit die Applikation ansprechender wirkt. |
 
 
 ### 1.3 Testfälle
