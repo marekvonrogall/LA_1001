@@ -8,7 +8,7 @@ Einzelarbeit, von Rogall
 | Datum    | Version | Zusammenfassung                                                                            |
 | -------- | ------- | ------------------------------------------------------------------------------------------ |
 | 23.08.22 | 0.0.1   | Projektdokumentation. |
-|          | 0.0.2   |   |
+| 30.08.22 | 0.0.2   | Programmieren.  |
 |          | 0.0.3   |   |
 |          | 0.0.4   |   |
 
@@ -75,7 +75,13 @@ Ich nehme an, der Kunde möchte einen frühlichen Audioeffekt, keinen traurigen,
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
+| 1.A  | 30.08.22 |  Marek  |     50min     |      30min       |
+| 2.A  | 30.08.22 |  Marek  |     30min     |      15min     |
+| 3.A  | 30.08.22 |  Marek  |     20min     |      15min     |
+| 4.A  | 30.08.22 |  Marek  |     20min     |      40min      |
+| 5.A  | 30.08.22 |  Marek  |     50min     |             |
+| 6.A  | 30.08.22 |  Marek  |     50min     |      10min       |
+| 7.A  | 30.08.22 |  Marek  |     50min     |      10min |
 | ...  |       |           |               |                   |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
