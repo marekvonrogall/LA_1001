@@ -32,6 +32,7 @@ Ein Spiel in welchem der Benutzer die richtige, zufällig generierte Zahl errate
 | 8    |  muss           |  F   | Als Kunde möchte ich eine Applikation, welche bei einer Eingabe falschen Formats eine Fehlermeldung ausgibt, damit keine Fehler im Programm entstehen. |
 
 
+
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
@@ -68,8 +69,8 @@ Total: 245min
 
 ## 3 Entscheiden
 
-Ich nehme an, der Kunde möchte einen hellgrünen Hintergrund, keinen dunkelgrünen, wenn die richtige Zahl erraten wurde.
-Ich nehme an, der Kunde möchte einen frühlichen Audioeffekt, keinen traurigen, wenn die richtige Zahl erraten wurde.
+Ich nehme an, dass der Kunde möchte einen hellgrünen Hintergrund, keinen dunkelgrünen, wenn die richtige Zahl erraten wurde.
+Ich nehme an, dass der Kunde beim auswählen der Zahlenspanne zuerst die kleine und dann die grosse Zahl oder zuerst die grosse und dann die kleine Zahl eingeben möchte, ohne dass das Programm einen Fehler ausgibt.
 
 ## 4 Realisieren
 
@@ -82,9 +83,7 @@ Ich nehme an, der Kunde möchte einen frühlichen Audioeffekt, keinen traurigen,
 | 5.A  | 30.08.22 |  Marek  |     30min     |      35min       |
 | 6.A  | 30.08.22 |  Marek  |     15min     |      10min       |
 | 7.A  | 30.08.22 |  Marek  |     15min     |      10min |
-| 8.A  | 06.09.22 |  Marek  |     40min     |                   |
-
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+| 8.A  | 06.09.22 |  Marek  |     40min     |      50min          |
 
 ## 5 Kontrollieren
 
@@ -108,4 +107,4 @@ Ich nehme an, der Kunde möchte einen frühlichen Audioeffekt, keinen traurigen,
 
 ## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+[Lern-Bericht](https://github.com/marekvonrogall/LA_1001/edit/main/Projektdokumentation.md)
