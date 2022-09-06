@@ -26,7 +26,7 @@ Ein Spiel in welchem der Benutzer die richtige, zufällig generierte Zahl errate
 | 2    |  muss           |  F   | Als Kunde möchte ich in einem Eingabefeld die Spannweite der zufälligen Zahlen selbst auswählen können, damit der Schwierigkeitsgrad des Spiels angepasst werden kann. |
 | 3    |  muss           |  F   | Als Kunde möchte ich eine Applikation, welches mir die Anzahl Rateversuche am Schluss des Spiels anzeigt, damit man sich mit anderen Spielern vergleichen kann. |
 | 4    |  muss           |  F   | Als Kunde möchte ich eine Applikation, welches ich mit einem Tastendruck manipulieren und sofort gewinnen kann, damit ich öfters gewinne als meine Mitspieler. |
-| 5    |  kann           |  Q   | Als Kunde möchte ich eine Applikation, welche beim erfolgreichen erraten der Zahl einen Audioeffekt abspielt, damit die Applikation interessanter wirkt.|
+| 5    |  muss           |  Q   | Als Kunde möchte ich eine Applikation, welche während des Ratens eine Auflistung der zu grossen und zu kleinen Eingaben anzeigt, damit man immer den Überblick über bereits getätigte Eingaben behält.|
 | 6    |  kann           |  Q   | Als Kunde möchte ich eine Applikation, welche orange gefärbte Eingabefelder besitzt, damit die Applikation ansprechender wirkt. |
 | 7    |  kann           |  Q   | Als Kunde möchte ich eine Applikation, welche den Hintergrund grün einfärbt, wenn die richtige Zahl erraten wurde, damit die Applikation ansprechender wirkt. |
 | 8    |  muss           |  F   | Als Kunde möchte ich eine Applikation, welche bei einer Eingabe falschen Formats eine Fehlermeldung ausgibt, damit keine Fehler im Programm entstehen. |
@@ -40,7 +40,7 @@ Ein Spiel in welchem der Benutzer die richtige, zufällig generierte Zahl errate
 | 2.1  | Applikation gestartet, es wird in einem Benutzereingabefeld nach einer Zahlenspannweite gefragt. | 20; 341 | Die Applikation wählt eine zufällige Zahl wischen 20 und 341. |
 | 3.1  | Applikation gestartet, zufällige Zahl ist bereits generiert, die richtige Zahl wurde erraten | 93; 21 | Meldung: "Anzahl Rateversuche: 2" |
 | 4.1  | Applikation gestartet, zufällige Zahl ist bereits generiert, wartet auf Benutzereingabe. | Die Taste "H" wird während des Abschickens der Benutzereingabe gedrückt gehalten | Die Überprüfung der Benutzereingabe wird übersprungen. Die Anwendung zeigt an, dass die richtige Zahl erraten wurde. |
-| 5.1  | Applikation gestartet, zufällige Zahl ist bereits generiert, die richtige Zahl wurde soeben erraten | Keine Eingabe | Ein Audioeffekt wird abgespielt |
+| 5.1  | Applikation gestartet, zufällige Zahl ist bereits generiert, die erste Eingabe wurde getätigt. | 45 | Die 45 wird entweder bei den zu grossen oder bei den zu kleinen Eingaben aufgelistet. |
 | 6.1  | Applikation gestartet, zufällige Zahl wurde gerade generiert, das Feld für die Benutzereingabe erscheint | Keine Eingabe | Das Feld der Benutzereingabe ist orange |
 | 7.1  | Applikation gestartet, zufällige Zahl ist bereits generiert, die richtige Zahl wurde soeben erraten | keine Eingabe | Der Hintergrund der Applikation färbt sich grün |
 | 8.1  | Applikation gestartet, wartet auf Eingabe des Benutzers. | String | Fehlermeldung: "Es werden nur ganze Zahlen angenommen" |
@@ -59,7 +59,7 @@ Ein Spiel in welchem der Benutzer die richtige, zufällig generierte Zahl errate
 | 2.A  |  30.08.22     | Marek von Rogall | Ein Eingabefeld mit einer selbst festlegbaren Zahlenspannweite funktioniert und nimmt nur Zahlen im Integer Format an.         | 30min         |
 | 3.A  |  30.08.22  | Marek von Rogall    | Eine Ausgabe der benötigten Versuche bis zum erraten der richtigen Zahl wird in das Spiel eingebaut. | 20min |
 | 4.A  |  30.08.22  | Marek von Rogall    | Ein Trick im Spiel für das überspringen der Überprüfung der Richtigkeit der eingegebenen Zahl wird in das Spiel eingebaut. | 20min |
-| 5.A | 06.09.22 | Marek von Rogall | Ein Audioeffekt beim erraten der korrekten Zahl wird in das Spiel eingebaut | 30min |
+| 5.A | 06.09.22 | Marek von Rogall | Eine Auflistung aller zu grossen und zu kleinen Eingaben wird während des Spielens und nach dem Erraten der richtigen Zahl angezeigt. | 30min |
 | 6.A | 06.09.22 | Marek von Rogall | Die Eingabefelder im Spiel werden Orange gefärbt. | 30min |
 | 7.A | 06.09.22 | Marek von Rogall | Der Hintergrund der Applikation wird grün eingefärbt. | 25min |
 | 8.A | 06.09.22 | Marek von Rogall | Nur Integer Eingaben werden in Eingabefeldern akzeptiert. | 40min |
@@ -79,9 +79,9 @@ Ich nehme an, der Kunde möchte einen frühlichen Audioeffekt, keinen traurigen,
 | 2.A  | 30.08.22 |  Marek  |     30min     |      15min     |
 | 3.A  | 30.08.22 |  Marek  |     20min     |      15min     |
 | 4.A  | 30.08.22 |  Marek  |     20min     |      40min      |
-| 5.A  | 30.08.22 |  Marek  |     50min     |             |
-| 6.A  | 30.08.22 |  Marek  |     50min     |      10min       |
-| 7.A  | 30.08.22 |  Marek  |     50min     |      10min |
+| 5.A  | 30.08.22 |  Marek  |     30min     |      35min       |
+| 6.A  | 30.08.22 |  Marek  |     15min     |      10min       |
+| 7.A  | 30.08.22 |  Marek  |     15min     |      10min |
 | ...  |       |           |               |                   |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
