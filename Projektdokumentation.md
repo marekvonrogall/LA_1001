@@ -9,7 +9,7 @@ Einzelarbeit, von Rogall
 | -------- | ------- | ------------------------------------------------------------------------------------------ |
 | 23.08.22 | 0.0.1   | Projektdokumentation. |
 | 30.08.22 | 0.0.2   | Programmieren.  |
-|          | 0.0.3   |   |
+| 06.09.22 | 0.0.3   |   |
 |          | 0.0.4   |   |
 
 ## 1 Informieren
@@ -82,7 +82,7 @@ Ich nehme an, der Kunde möchte einen frühlichen Audioeffekt, keinen traurigen,
 | 5.A  | 30.08.22 |  Marek  |     30min     |      35min       |
 | 6.A  | 30.08.22 |  Marek  |     15min     |      10min       |
 | 7.A  | 30.08.22 |  Marek  |     15min     |      10min |
-| ...  |       |           |               |                   |
+| 8.A  | 06.09.22 |  Marek  |     40min     |                   |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
