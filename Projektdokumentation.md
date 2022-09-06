@@ -9,7 +9,7 @@ Einzelarbeit, von Rogall
 | -------- | ------- | ------------------------------------------------------------------------------------------ |
 | 23.08.22 | 0.0.1   | Projektdokumentation. |
 | 30.08.22 | 0.0.2   | Programmieren.  |
-| 06.09.22 | 0.0.3   |   |
+| 06.09.22 | 0.0.3   | Projektdokumentation. |
 |          | 0.0.4   |   |
 
 ## 1 Informieren
@@ -70,6 +70,7 @@ Total: 245min
 ## 3 Entscheiden
 
 Ich nehme an, dass der Kunde möchte einen hellgrünen Hintergrund, keinen dunkelgrünen, wenn die richtige Zahl erraten wurde.
+
 Ich nehme an, dass der Kunde beim auswählen der Zahlenspanne zuerst die kleine und dann die grosse Zahl oder zuerst die grosse und dann die kleine Zahl eingeben möchte, ohne dass das Programm einen Fehler ausgibt.
 
 ## 4 Realisieren
@@ -83,7 +84,7 @@ Ich nehme an, dass der Kunde beim auswählen der Zahlenspanne zuerst die kleine 
 | 5.A  | 30.08.22 |  Marek  |     30min     |      35min       |
 | 6.A  | 30.08.22 |  Marek  |     15min     |      10min       |
 | 7.A  | 30.08.22 |  Marek  |     15min     |      10min |
-| 8.A  | 06.09.22 |  Marek  |     40min     |      50min          |
+| 8.A  | 30.08.22 |  Marek  |     40min     |      40min          |
 
 ## 5 Kontrollieren
 
