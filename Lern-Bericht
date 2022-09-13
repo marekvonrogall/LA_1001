@@ -24,8 +24,12 @@ Da diese Eingabe allerings ein Double ist, stürzt das Programm ab.
 
 
 
-```c#
-static void Main(string[] args)
+```csharp
+namespace TryCatchExample
+{
+    internal class Program
+    {
+        static void Main(string[] args)
         {
             int eingabe = 0;
             try
@@ -40,6 +44,8 @@ static void Main(string[] args)
             }
             Console.WriteLine(eingabe);
         }
+    }
+}
 ```
 
 
