@@ -103,17 +103,17 @@ Ich nehme an, dass der Kunde beim auswählen der Zahlenspanne zuerst die kleine 
 | 8.1  |  13.09.22  |  Die Eingaben der Zahlenspannweite nehmen nur Eingaben im Integer-Format an.   |  Marek |
 | 8.2  |  13.09.22  |  Die Eingaben zum Erraten der gesuchten Zahl nehmen nur Eingaben im Integer-Format an, ausser die Eingabe enthält ein "h" an letzter Stelle.  | Marek |
 
+**Fazit:**
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Das Programm weist keine Fehler auf und beinhaltet alle User-Stories.
 
 ### 5.2 Exploratives Testen
 
 | BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
 | ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
+| I    |  Die Applikation ist gestartet, wartet auf Benutzereingabe der Zahlenspanne | Double / String | Programm stürzt ab. | Programm bietet um erneute Eingabe |
+| II   |  Die Applikation ist gestartet, zufällige Zahl wurde generiert, wartet auf Benutzereingabe zum Erraten der gesuchten Zahl. | Double / String | Programm stürzt ab. | Programm bietet um erneute Eingabe |
+| III  |  Die Applikation ist gestartet, zufällige Zahl wurde erraten, wartet auf Benutzereingabe zum erneuten Spielen. | Double / Int | Programm stürzt ab. | Programm startet erneut. Das Programm kann nur mit der Eingabe "n" beendet werden. |
 
 ## 6 Auswerten
 
