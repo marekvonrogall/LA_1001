@@ -117,4 +117,4 @@ Das Programm weist keine Fehler auf und beinhaltet alle User-Stories.
 
 ## 6 Auswerten
 
-[Lern-Bericht](https://github.com/marekvonrogall/LA_1001/edit/main/Projektdokumentation.md)
+[Lern-Bericht](https://github.com/marekvonrogall/LA_1001/edit/main/Lern-Bericht.md)
