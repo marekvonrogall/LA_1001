@@ -13,12 +13,12 @@ Ich habe gelernt, Try-Catch anzuwenden, um ein Programm vor dem Abstürzen zu be
 
 ## Beschreibung
 
-Die Try-Catch Schleife bewahrt ein Programm vor dem Abstürzen, indem man einen Codefetzen welchen man ausprobieren will in "Try" einfügt und den Codefetzen welchen man ausführen möchte, falls "Try" fehlschlägt, in "Catch" einfügt.
+Die Try-Catch Funktion bewahrt ein Programm vor dem Abstürzen, indem man einen Codefetzen welchen man ausprobieren will in "Try" einfügt und den Codefetzen welchen man ausführen möchte, falls "Try" fehlschlägt, in "Catch" einfügt.
 Catch bezeichnet das sanfte Auffangen des Programms, wenn dieses in einen Fehler läuft.
 Dies kann u.a. bei Eingaben des Nutzers geschehen.
 
 In folgendem Beispiel wird probiert, eine Benutzereingabe in den Integer Dateityp zu formatieren.
-Da diese Eingabe allerings ein Double ist, stürzt das Programm ab.
+Durch fehlerhafte Eingaben des Benutzers kann folgender Fehler entstehen:
 
 
 ![fehler](https://user-images.githubusercontent.com/110893394/189858055-938da7f2-7316-4e67-b058-fa04fb68c1cd.png)
