@@ -91,17 +91,17 @@ Ich nehme an, dass der Kunde beim auswählen der Zahlenspanne zuerst die kleine 
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |  30.08.22  |  Die fertige  Basis-Applikation funktioniert reibunglos.  |  Marek |
-| 2.1  |  30.08.22  |  Das Eingeben der Zahlenspanne funtioniert. Es ist nur möglich die kleinere Zahl zuerst einzugeben. Bei Eingaben des falschen Dateityps gibt das Spiel einen Fehler aus.        |  Marek     |
-| 2.2  |  30.08.22  |  Das Eingeben der Zahlenspanne funktioniert. Es ist nun möglich die kleinere Zahl oder die grössere Zahl zuerst einzugeben. Bei Eingaben des falschen Dateityps gibt das Spiel einen Fehler aus.   |  Marek |
-| 2.3  |  30.08.22  |  Das Eingeben der Zahlenspanne funktioniert. Es ist nun möglich die kleinere Zahl oder die grössere Zahl zuerst einzugeben. Bei Eingaben des falschen Dateityps fragt das Spiel nach einer neuen Eingabe.   |  Marek |
-| 4.1  |  30.08.22  |  Die Eingabe eines "h" im Anschluss einer Zahl führt zum sofortigen Gewinnen des Spiels.    |  Marek |
-| 5.1  |  30.08.22  |  Eine Auflistung der bisherigen zu grossen und zu kleinen Rateversuche wird während des Spiels angezeigt.   |  Marek |
-| 5.2  |  30.08.22  |  Eine Auflistung der Rateversuche wird nach der Eingabe der gesuchten Zahl ebenfalls im "Gewonnen-Bildschirm" angezeigt.   |  Marek |
-| 6.1  |  30.08.22  |  Die Eingabefelder des Benutzers sind orange.   |  Marek |
-| 7.1  |  30.08.22  |  Der Hintergrund färbt scih grün, sobald das Spiel gewonnen wurde.   |  Marek |
-| 8.1  |  06.09.22  |  Die Eingaben der Zahlenspannweite nehmen nur Eingaben im Integer-Format an.   |  Marek |
-| 8.2  |  06.09.22  |  Die Eingaben zum Erraten der gesuchten Zahl nehmen nur Eingaben im Integer-Format an, ausser die Eingabe enthält ein "h" an letzter Stelle.  | Marek |
+| 1.1  |  13.09.22  |  Die fertige  Basis-Applikation funktioniert reibunglos.  |  Marek |
+| 2.1  |  13.09.22  |  Das Eingeben der Zahlenspanne funtioniert. Es ist nur möglich die kleinere Zahl zuerst einzugeben. Bei Eingaben des falschen Dateityps gibt das Spiel einen Fehler aus.        |  Marek     |
+| 2.2  |  13.09.22  |  Das Eingeben der Zahlenspanne funktioniert. Es ist nun möglich die kleinere Zahl oder die grössere Zahl zuerst einzugeben. Bei Eingaben des falschen Dateityps gibt das Spiel einen Fehler aus.   |  Marek |
+| 2.3  |  13.09.22  |  Das Eingeben der Zahlenspanne funktioniert. Es ist nun möglich die kleinere Zahl oder die grössere Zahl zuerst einzugeben. Bei Eingaben des falschen Dateityps fragt das Spiel nach einer neuen Eingabe.   |  Marek |
+| 4.1  |  13.09.22  |  Die Eingabe eines "h" im Anschluss einer Zahl führt zum sofortigen Gewinnen des Spiels.    |  Marek |
+| 5.1  |  13.09.22  |  Eine Auflistung der bisherigen zu grossen und zu kleinen Rateversuche wird während des Spiels angezeigt.   |  Marek |
+| 5.2  |  13.09.22  |  Eine Auflistung der Rateversuche wird nach der Eingabe der gesuchten Zahl ebenfalls im "Gewonnen-Bildschirm" angezeigt.   |  Marek |
+| 6.1  |  13.09.22  |  Die Eingabefelder des Benutzers sind orange.   |  Marek |
+| 7.1  |  13.09.22  |  Der Hintergrund färbt scih grün, sobald das Spiel gewonnen wurde.   |  Marek |
+| 8.1  |  13.09.22  |  Die Eingaben der Zahlenspannweite nehmen nur Eingaben im Integer-Format an.   |  Marek |
+| 8.2  |  13.09.22  |  Die Eingaben zum Erraten der gesuchten Zahl nehmen nur Eingaben im Integer-Format an, ausser die Eingabe enthält ein "h" an letzter Stelle.  | Marek |
 
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
