@@ -21,6 +21,7 @@ In folgendem Beispiel wird probiert, eine Benutzereingabe in den Integer Dateity
 Da diese Eingabe allerings ein Double ist, stürzt das Programm ab.
 
 
+![fehler](https://user-images.githubusercontent.com/110893394/189858055-938da7f2-7316-4e67-b058-fa04fb68c1cd.png)
 
 
 
