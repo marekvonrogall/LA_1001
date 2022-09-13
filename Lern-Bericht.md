@@ -24,6 +24,8 @@ Durch fehlerhafte Eingaben des Benutzers kann folgender Fehler entstehen:
 ![fehler](https://user-images.githubusercontent.com/110893394/189858055-938da7f2-7316-4e67-b058-fa04fb68c1cd.png)
 
 
+Dies ist ein korrektes Beispiel, um Try-Catch anzuwenden:
+
 
 ```csharp
 namespace TryCatchExample
@@ -49,21 +51,19 @@ namespace TryCatchExample
 }
 ```
 
+Kann die Konvertierung zum Integer Dateityp in "try" nicht ausgeführt werden, stürzt das Programm nicht ab, sondern führt den Codefetzen in "catch" aus.
 
-
-* Eine textliche Beschreibung
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Bild: Zeigt ein Beispiel auf, in welchem ich keine Try-Catch-Funktion angewendet habe, und das Programm abgestürzt ist.
+
+Code: Zeigt auf wie ich die Konvertierung der Benutzereingabe in eine Try-Catch-Funktion eingefügt habe, so dass das Programm nicht abstürzt, sondern sanft aufgefangen wird.
+
 
 # Reflektion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+Ich habe schnell und motiviert gelernt, hätte allerdings öfters die Testfälle auszuführen sollen, um Fehler zu vermeiden und schnell zu beheben.
 
-👎 und etwas, was nicht gut lief.
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+**VBV**: Zuerst ein umfangreichen PAP erstellen, bevor ich anfange einfach darauflos zu Programmieren.
