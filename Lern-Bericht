@@ -15,6 +15,24 @@ Ich habe gelernt, Try-Catch anzuwenden, um ein Programm vor dem Abstürzen zu be
 
 ✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 
+´´´c#
+static void Main(string[] args)
+        {
+            int eingabe = 0;
+            try
+            {
+                eingabe = Convert.ToInt32(Console.ReadLine());
+                
+                Console.WriteLine("Eingabe war korrekt");
+            }
+            catch
+            {
+                Console.WriteLine("Ungültige Eingabe.");
+            }
+            Console.WriteLine(eingabe);
+        }
+´´´
+
 * Eine textliche Beschreibung
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
 * Ein gut dokumentierter Code-Fetzen
