@@ -48,7 +48,7 @@ Ein Spiel in welchem der Benutzer die richtige, zufällig generierte Zahl errate
 
 ### 1.4 Diagramme
 
-![Zahlenraten3](https://user-images.githubusercontent.com/110893394/186120279-582bb1af-e50a-4b0f-9387-425ac0a9aa21.png)
+![Zahlenratenv2](https://user-images.githubusercontent.com/110893394/189839693-459495f8-d972-40fc-9cb2-1a22cb6e8249.png)
 
 
 ## 2 Planen
