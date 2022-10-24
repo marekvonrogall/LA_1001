@@ -111,8 +111,8 @@ Das Programm weist keine Fehler auf und beinhaltet alle User-Stories.
 
 | BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
 | ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |  Die Applikation ist gestartet, wartet auf Benutzereingabe der Zahlenspanne | Double / String | Programm stürzt ab. | Programm bietet um erneute Eingabe |
-| II   |  Die Applikation ist gestartet, zufällige Zahl wurde generiert, wartet auf Benutzereingabe zum Erraten der gesuchten Zahl. | Double / String | Programm stürzt ab. | Programm bietet um erneute Eingabe |
+| I    |  Die Applikation ist gestartet, wartet auf Benutzereingabe der Zahlenspanne | Double / String | Programm stürzt ab. | Programm bittet um erneute Eingabe |
+| II   |  Die Applikation ist gestartet, zufällige Zahl wurde generiert, wartet auf Benutzereingabe zum Erraten der gesuchten Zahl. | Double / String | Programm stürzt ab. | Programm bittet um erneute Eingabe |
 | III  |  Die Applikation ist gestartet, zufällige Zahl wurde erraten, wartet auf Benutzereingabe zum erneuten Spielen. | Double / Int | Programm stürzt ab. | Programm startet erneut. Das Programm kann nur mit der Eingabe "n" beendet werden. |
 
 ## 6 Auswerten
